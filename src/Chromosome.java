@@ -20,7 +20,7 @@ public class Chromosome {
         value = 0;
         maxWeight = 1000;
         cost = 0;
-        other = other;
+        other = new boolean[code.length];
     }
 
         public void mutate(double chance) {

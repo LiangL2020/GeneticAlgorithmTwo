@@ -12,6 +12,7 @@ public class Main {
         System.out.println(elementList);
         Population population = new Population(20);
         int numGens = 0;
+        population.generation();
 //        while(numGens < 5000000){
 ////            population.generation();
 //            numGens ++;
